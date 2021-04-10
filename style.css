@@ -50,7 +50,6 @@ li {
 
 .card {
   background-color: white;
-  width: min(350px, calc(100% - 8px));
   height: 400px;
   border-radius: 10px;
   display: flex;
@@ -88,8 +87,9 @@ li {
   height: 150px;
 }
 
-@media (max-width: 578px) {
+@media  (max-width: 578px) {
   body {
     background-position-y: -50vw, 70vh;
   }
 }
+
